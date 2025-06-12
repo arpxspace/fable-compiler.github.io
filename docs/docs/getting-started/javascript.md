@@ -3,7 +3,7 @@ title: JavaScript
 layout: standard
 ---
 
-This section is specific to JavaScript targetting, it will guide you through the process of setting up your project and using Fable with JavaScript.
+This section is specific to targeting JavaScript, it will guide you through the process of setting up your project and using Fable with JavaScript.
 
 We will cover the basics of using Node.js and [Vite](https://vitejs.dev/) for the browser, but you can use any tools you want.
 
@@ -16,7 +16,7 @@ Please make sure you followed the [Fable setup guide](/docs/2-steps/your-first-f
 In this section, we are going to see how to run Fable code using Node.js.
 
 When using JavaScript, you will need a `package.json` to manage your dependencies.
-This file also allows you to confiture the type of `module` that Node.js use to interpret your code.
+This file also allows you to configure the type of `module` that Node.js will use to interpret your code.
 
 <ul class="textual-steps">
 
@@ -38,7 +38,7 @@ Add the following line to the generated `package.json` file:
 "type": "module",
 ```
 
-It should looks something like that now:
+It should look something like this now:
 
 ```json
 {
@@ -72,7 +72,7 @@ You should see `Hello from F#` in your terminal.
 
 <li>
 
-When targeting the Node.JS, you will probably want to have access to the Node.JS API.
+When targeting Node.JS, you will probably want to have access to the Node.JS API.
 
 To do so, you can use the [Fable.Node](https://github.com/fable-compiler/fable-node).
 
@@ -106,7 +106,7 @@ If you run your node script again, you should see a new file `test.txt` with the
 
 Try changing the content of `Hello World` to something else and re-run your script.
 
-You should see that Fable re-compile your code and the file content changed.
+You should see that Fable re-compiles your code and the file content has changed.
 
 </li>
 
